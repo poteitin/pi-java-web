@@ -1,4 +1,4 @@
-# Nome do Projet
+# Nome do Projeto
 Sistema Web para Gerenciamento de Tarefas
 
 ## Status do Projeto
