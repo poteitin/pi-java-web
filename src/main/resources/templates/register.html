@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/scripts.js"></script>
+</head>
+<body>
+    <h1>Cadastro de Usuário</h1>
+    <form name="registerForm" onsubmit="return validateForm()" method="post" action="/register">
+        <label for="username">Nome de Usuário:</label>
+        <input type="text" id="username" name="username"><br>
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password"><br>
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>
